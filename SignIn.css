@@ -1,0 +1,126 @@
+https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #92bde7;
+    color: #485e74;
+    line-height: 1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1rem;
+}
+.container2 {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10em;
+}
+ul  {
+    list-style: none;
+    padding: 0;
+}
+.brand {
+    text-align: center;
+
+}
+.brand span {
+    color:white;
+}
+.wrapper {
+    box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+}
+.wrapper > *{
+    padding: 1em;
+}
+.company-info {
+    background: #c9e6ff;
+}
+.company-info h3, .company-info ul{
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+.contact {
+    background: #f9feff;
+}
+
+/* formm style */
+
+.contact form label {
+    display: block;
+    width:100%;
+}
+.contact form p {
+    margin: 0;
+}
+.div{
+    display: flex;
+  gap:5rem;
+  flex-wrap: wrap;
+}
+
+.contact form button,.contact form input,.contact form textarea{
+width: 100%;
+padding: 1em;
+border: 1px solid #c9e6ff;
+}
+.contact form button {
+    background: #c9e6ff;
+    border: 0;
+    text-transform: uppercase;
+}
+.contact form button:hover,.contact form button:focus{
+    background: #92bde7;
+    color: white;
+    outline: 0;
+    transition: background-color 2s ease-out ;
+}
+
+@media(min-width:700px) {
+    .div{
+        display: flex;
+      gap:2rem;
+      flex-wrap: wrap;
+    }
+    
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.wrapper > *{
+    padding: 2em;
+}
+.company-info h3,.company-info ul,.brand{
+    text-align: left;
+}
+}
+@media only screen and (min-width: 320px) {
+    .div{
+        display: flex;
+      gap:2rem;
+      flex-wrap: wrap;
+    }
+    .container {
+        padding: 0.5rem;
+    }
+    .wrapper {
+        padding: 1rem;
+    }
+    .company-info {
+        height: 150px;
+        margin-left: 1px;
+       
+        background-color: #92bde7;
+    }
+    .contact {
+        padding: 2rem;
+    }
+   
+    .contact form {
+        display: grid;
+        grid-template-columns:1fr  ;
+        grid-gap:20px;
+    }
+    
+}
+
+
