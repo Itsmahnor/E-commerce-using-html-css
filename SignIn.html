@@ -9,11 +9,33 @@
     <link rel="stylesheet" href="SignIn.css">
 </head>
 <body>
-    <div class="container2">
-        <h1 class="brand"> <span>Acme</span> Web Design</h1>
+  <div class="container ">
+    <div class="row">
+      <div class="col-left">
+        <div class="btn-group">
+          <button class="dropdown-btn">USD</button>
+          <div class="dropdown-content">
+            <a href="#">ERU-Euro</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-center">
+        <h2 class="site-title">Online Store</h2>
+      </div>
+      <div class="col-right">
+        <p class="header-links">
+          <a href="#"  class="link">Sign In</a>
+          <a href="#" class="link">Create an Account</a>
+        </p>
+      </div>
+    </div>
+  </div>
+    <div class="container2 animate">
+     
+        <h1 class="brand"> <span>Sign</span> Up</h1>
         <div class="wrapper">
             <div class="company-info">
-                <h3>Acme Web Design</h3>
+                <h3>Welcome to our Store</h3>
                 <ul>
                     <li> <i class="fa fa-road"></i>   44 something st</li>
                     <li><i class="fa fa-phone"></i > 0345-121128</li>
@@ -26,11 +48,11 @@
                 <form class="form">
                     <div class="div">
                     <p>
-                        <label>Name</label>
+                        <label>First Name</label>
                         <input type="text" name="name">
                     </p>
                     <p>
-                        <label>Company</label>
+                        <label>Last Name</label>
                         <input type="text" name="Company">
                     </p></div>
                 <div class="div">   <p>
@@ -38,12 +60,12 @@
                         <input type="email" name="Email">
                     </p>
                     <p>
-                        <label>Phone Number</label>
-                        <input type="number" name="Number">
+                        <label>password</label>
+                        <input type="password" name="Number">
                     </p></div> 
                     <p class="full">
-                        <label>Message</label>
-                        <textarea name="Message" rows="5"></textarea>
+                      <label>Confirm password</label>
+                      <input type="password" name="Number">
                     </p>
                     <p class="full">
                         <button>Submit</button>
